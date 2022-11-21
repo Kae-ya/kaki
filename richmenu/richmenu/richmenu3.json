@@ -1,0 +1,2 @@
+https://api.line.me/v2/bot/user/all/richmenu/{richmenuid}
+Authorization Bearer {channel access token}

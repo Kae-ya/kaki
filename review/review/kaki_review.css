@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+header{
+  margin-top: 30px;
+  color: #00bfff;
+}
+hr{
+  border-width: 3px;
+  border-color: #00bfff;
+}
+h1{
+  font-size:35px;
+    font-weight: bold;
+    margin: 0;
+  text-align: center;
+}
+.align-light{
+    text-align: right;
+}
+.box1 {
+    padding: 0.01em 0.5em;
+    margin: 2em 0;
+    color: #FFF;
+    background: #00bfff;
+    border-radius: 9px;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+.box2 {
+    padding: 0.01em 0.5em;
+    margin: 2em 0;
+    color: #FFF;
+    background: #00bfff;
+    border-radius: 9px;
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+.box3 {
+    padding: 0.005em 0.5em;
+    margin: 2em 0;
+    color: #FFF;
+    background: #ff0000;
+    border-radius: 9px;
+}
+.box3 p {
+    margin: 0; 
+    padding: 0;
+}
+.kansou{
+    border: 0.5px solid #000;  /* 枠線 */
+    border-radius: 0.20em;   /* 角丸 */
+    padding: 0.0em;          /* 内側の余白量 */
+    background-color: white;  /* 背景色 */
+    width: 25em;             /* 横幅 */
+    height: 150px;           /* 高さ */
+    font-size: 1.2em;          /* 文字サイズ */
+    line-height: 1.2;        /* 行の高さ */
+}
+.form-control{
+    border: 0.5px solid #000;  /* 枠線 */
+    border-radius: 0.20em;   /* 角丸 */
+    padding: 0.0em;          /* 内側の余白量 */
+    background-color: white;  /* 背景色 */
+    width: 30em;             /* 横幅 */
+    height: 100px;           /* 高さ */
+    font-size: 1.0em;          /* 文字サイズ */
+    line-height: 1.2;        /* 行の高さ */
+}
+.form-group{
+  margin-bottom: 35px;
+}
+footer p{
+  text-align: center;
+}
+form .formbottom {
+	text-align: center;
+} 
+form .btns{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+	padding: 6px 25px;
+	color: #00bfff;
+	font-weight: bold;
+	letter-spacing: 0.5pt;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #00bfff;
+	cursor: pointer;
+	transition-duration:0.3s;
+    -webkit-transition-duration:0.3s;
+    -moz-transition-duration:0.3s;
+    -o-transition-duration:0.3s;
+    -ms-transition-duration:0.3s;
+} 
+form .btns:hover{
+    color: #ffffff;
+    background-color: #00bfff;
+}

@@ -1,0 +1,5 @@
+https://api-data.line.me/v2/bot/richmenu/{richmenuid}/content
+Authorization Bearer {channel access token}
+Content-Type image/png
+
+richmenu.png

@@ -1,0 +1,51 @@
+
+<html>
+<head>
+    <title>自販機のレビューページ</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="jihanki_review.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+           <div class="row">
+                    <h1>自販機に関するレビュー</h1>
+            </div>
+        </header>
+    </div>
+
+    <hr>
+    
+    <div class="container">
+        <form action="test.php" method="post" class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="form-group">
+                    <label for="name"><span class="box1">任意</span> お名前（ニックネームでも可）</label><br>
+                    <input type="text" id="name" name="name" class="form-control1" placeholder="例：牡蠣太郎" autofocus required>
+                </div>
+                <div class="form-group">
+                    <label for="email"><span class="box2">任意</span> メールアドレス</label><br>
+                    <input type="email" id="email" name="email" class="form-control2" placeholder="例：kakidaisuki@icloud.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="kansou"><span class="box3">必須</span> 自販機についての感想</label><br>
+                    <textarea class="comment" id="comment" name="comment"  placeholder="" required></textarea>
+                </div>
+   
+                <p class="formbottom">
+                <input type="submit" value="送信" class="btns submit"　onclick="location.href='index.php'>            
+                </p>
+            </div>
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <footer>
+            <p>ご協力ありがとうございました！</p>
+        </footer>
+    </div>
+</body>
+</html>

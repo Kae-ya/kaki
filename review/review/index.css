@@ -1,0 +1,165 @@
+
+html{
+background-color:#ffffff;
+}
+
+.bbooxx {
+  /* 子要素のタイトルを aboslute 配置するため必要 */
+  position: relative;
+}
+.bbooxx .box_imageLeft {
+  position: absolute;
+  left: 50;
+}
+.bbooxx .box_imageRight {
+  position: absolute;
+  right: 50;
+}
+
+.h5{font-family:"游明朝";
+font-size:25px;
+color:#000000; 
+}
+
+.h4{font-family:"游明朝";
+font-size:25px;
+color:#000000; 
+}
+
+.h3{font-family:"游明朝";
+font-size:30px;
+color:#000000;
+}
+
+h1{font-family:"游ゴシック";
+font-size:50px;
+color:#0000ff;}
+
+p{font-family:"游ゴシック";
+font-size:30px;
+color:#000000;}
+
+$p{font-family:"游明朝";
+font-size:40px;
+color:#000000;  
+}
+
+
+.balloon1 {
+  position: relative;
+  margin: 2em 0 2em 40px;
+  padding: 15px;
+  background: #fff0c6;
+  border-radius: 30px;
+}
+
+.balloon1:before {  
+  content: "";
+  position: absolute;
+  left: -38px;
+  width: 13px;
+  height: 12px;
+  bottom: 0;
+  background: #fff0c6;
+  border-radius: 50%;
+}
+
+.balloon1:after {
+  content: "";
+  position: absolute;
+  left: -24px;
+  width: 20px;
+  height: 18px;
+  bottom: 3px;
+  background: #fff0c6;
+  border-radius: 50%;
+}
+.balloon1 p {
+  margin: 10; 
+  padding: 0;
+}
+
+
+.button {
+  position      : relative; /* 今の位置を基準 */
+  bottom        : 10px; /* から20px */
+  left          : 40px; /* から20px */
+  float         : left;
+  display       : inline-block;
+  border-radius : 100vh;          /* 角丸       */
+  font-size     : 26pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 19px 46px;   /* 余白       */
+  background    : #ffff00;     /* 背景色     */
+  color         : #000000;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #ffff00;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ffff00;     /* 背景色     */
+  background    : #000000;     /* 文字色     */
+
+}
+
+
+/* === BODYのpaddingを調整する ============================== */
+body{
+  padding-bottom : 100px;      /* フッターの高さに合わせる */
+}
+
+/* === フッター ============================================= */
+.footerStyle{
+  position    : fixed;
+  bottom      : 0;
+  left        : 0;
+  right       : 0;
+  height      : 120px;
+  background  : linear-gradient(#000000, #808080);
+  z-index     : 10;
+  text-align  : center;
+  font-weight : bold;
+}
+/* === 文字（大） =========================================== */
+.Big{
+  font-size   : 30px;
+  line-height : 80px;
+  color       : #fff;
+  float       : center;
+}
+
+ 
+/* === 文字（小） =========================================== */
+.Small{
+  font-size   : 15px;
+  line-height : 0px;
+  color       : #fff;
+  float       : center;
+}
+
+/*Big {text-align:center; }
+Small {text-align:center; }*/
+
+.solid1 {
+  box-sizing    : border-box;           /* 罫線も含む長さ     */
+  width         : 70%;                 /* BOXの幅            */
+  height        : 60px;                 /* BOXの高さ          */
+  padding       : 5px 30px;            /* 文字の位置合わせ   */
+  font-size     : 33pt;                 /* 文字サイズ         */
+  text-align    : center;                 /* 文字位置           */
+  color         : #ff8c00;              /* 文字色             */
+ 
+  background    : #ffebcd;              /* BOXの背景色        */
+  border-top    : 1px  solid #ffa500;   /* 枠線の指定（右）   */
+  border-right  : 15px solid #ffa500;   /* 枠線の指定（右）   */
+  border-bottom : 1px  solid #ffa500;   /* 枠線の指定（右）   */
+  border-left   : 15px solid #ffa500;   /* 枠線の指定（左）   */
+
+  margin-left   : auto;
+  margin-right  : auto;
+}
+
+
