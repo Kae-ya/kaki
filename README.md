@@ -28,6 +28,6 @@
 　自動販売機の在庫情報を管理します。  
 　Arduinoから受け取った値をDBへ送信します。
 
-## richmenuのファイルの機能
+## richmenuの各ファイルの機能
 - ### richmenu1.json, richmenu2.json, richmenu3.json
 　LINEbotのリッチメニューの設定に関するファイルです。
